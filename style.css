@@ -180,6 +180,15 @@ body {
 .services .serviceimg img{
     width: 100%;
 }
+
+.bt {
+    padding: 10px 20px;
+    background-color: #010000;
+    color: white;
+    border: none;
+    margin: 20px 0px 0px;
+    font-weight: bold;
+}
 /*------------------end service section ------------*/
 
 /*------------------ start portfolio ---------------*/
