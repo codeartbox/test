@@ -123,6 +123,10 @@ body {
     margin: 20px 0px 0px;
     font-weight: bold;
 }
+.about .aboutsub1 button:hover{
+    background-color: rgb(85, 234, 162);
+    color: white;
+}
 
 
 .about .aboutsub2 img{
@@ -174,6 +178,41 @@ body {
 
 }
 .services .serviceimg img{
+    width: 100%;
+}
+/*------------------end service section ------------*/
+
+/*------------------ start portfolio ---------------*/
+
+.portfolio{
+    width: 100%;
+    padding: 15px 0px;
+
+}
+.portfolio h1{
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.portfolio .portfolioimg {
+    width: 100%;
+    
+    /*background-color: #967a7a;*/
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portfolioimg .pfimg{
+    width: 250px;
+    height: 250px;
+    margin: 100px;
+    margin: 10px auto;
+    
+
+}
+.pfimg img{
     width: 100%;
 }
 
