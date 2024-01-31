@@ -21,7 +21,7 @@ body {
 }
 .main .submain1,.main .submain2 {
     width: 500px;
-    height: 500px;
+    
     /*background-color: aqua; */
     margin: 10px auto;
 
@@ -128,9 +128,55 @@ body {
 .about .aboutsub2 img{
     width: 100%;
     border-radius: 500px;
-    background-color: aqua; 
+    
     
 }
+
+.service {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    
+
+
+}
+.services {
+   /* background-color: #6a0505; */
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+    
+}
+.service h2,.service h1{
+    text-transform: uppercase;
+
+}
+
+.services .service1,.services .service2,.services .service3,.services .service4{
+    width: 250px;
+    /*height: 200px;*/
+    padding: 10px 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    color: rgb(87, 81, 81);
+    
+
+}
+.services .serviceimg{
+    width: 50%;
+    /*background-color: aqua;*/
+    margin: 5px auto;
+    padding: 3px ;
+
+}
+.services .serviceimg img{
+    width: 100%;
+}
+
 
 /*test */
 
